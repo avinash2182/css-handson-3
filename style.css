@@ -1,0 +1,188 @@
+.poster{
+    border: 10px solid red;
+    border-radius: 20px;
+    height: 190px;
+    width: 470px;
+    text-align: center;
+    text-shadow: 30px;
+    font-style: italic;
+    color: darkmagenta;
+    background-color: white;
+    margin-left: 500px;
+    box-shadow: 8px 8px 8px purple;
+    
+}
+body{
+    background-color: gray;
+}
+.sideborder{
+
+    border: 10px solid green;
+    width: 99%;
+    height: 700px;
+   
+}
+.addressbox{
+    border: 10px solid red;
+    width: 250px;
+    height: 270px;
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 25px;
+    box-shadow: 8px 8px 8px purple;
+    text-shadow: 2px 2px 6px purple;
+    
+}
+.imgbox{
+    border: 10px solid red;
+    border-radius: 20px;
+    width: 250px;
+    height: 270px;
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: 8px 8px 8px purple;
+    
+}
+ .box2{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 30px;
+    /* box-shadow: 8px 8px 8px purple; */
+} 
+img{
+    width: 150px;
+    height: 200px;
+}
+.box3{
+    border: 10px solid red;
+    border-radius: 30px;
+    margin-top: 5px;
+    background-color: greenyellow;
+    width: 430px;
+    height: 80px;
+    position: fixed;
+    bottom: 100px;
+    left: 430px;
+    padding-top: 5px;
+    color: red;
+    /* padding: 30px; */
+    box-shadow: 8px 8px 8px purple;
+    padding-left: 17px;
+    padding-bottom: 9px;
+    text-align: center;
+    /* text-shadow: 2px 2px 6px purple; */
+    
+}
+.child12{
+    display: inline-block;
+    font-style: italic;
+    font-size: 25px;
+    padding-left: 8px;
+    font-weight: bold;
+}
+.child123{
+    display: inline-block;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 25px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.servicesbox{
+    border: 10px solid red;
+    width: 250px;
+    height: 270px;
+    line-height: 5px;
+    background-color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: 8px 8px 8px purple;
+    text-shadow: 2px 2px 6px purple;
+}
+.ratebox{
+    border: 10px solid red;
+    width: 250px;
+    height: 270px;
+    font-size: 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 8px 8px 8px purple;
+    text-shadow: 2px 2px 6px purple;
+    padding-top: 5px;
+}
+input::placeholder{
+    text-align: center;
+}
+.rateus{
+    font-size: small;
+}
+.tittle{
+    font-weight: bold;
+    font-size: 27px
+}
+.child2{
+    position: absolute;
+    top: 240px;
+    right: 100px;
+}
+.servicesbox{
+    position: relative;
+    top: 100px;
+    left: 0px;
+} 
+.ratebox{
+    position: absolute;
+    bottom: -175px;
+    right: 100px;
+}
+.parent{
+    border: 7px solid purple;
+    height: 675px;
+    width: 50%;
+    background-color: green;
+    font-style: italic;
+}
+.child{
+    border: 1px solid  gray;
+    width: 50%;
+    height: 250px;
+    background-color: khaki;  
+    font-weight: bold; 
+    font-size: 16px;
+    margin-right: 4px;
+    
+}
+.childd{
+    border: 1px solid  gray;
+    width: 50%;
+    height: 250px;
+    background-color: khaki; 
+    font-weight: bold;
+    font-size: 16px;
+}
+.parent2{
+    display: flex;
+}
+.lastbox{
+    border: 1px solid gray;
+    width: 103%;
+    height: 300px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: khaki;
+    margin-top: 5px;
+}
+/* hr{
+    border: 1px solid blue;
+} */
+.parent1{
+   position: relative;
+   bottom: 5px;
+   height: ;
+}
